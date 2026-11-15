@@ -1,5 +1,23 @@
 const issuesC = [
 {
+        id: "2026-10-07", issue: "06", day: "수", date: "2026.10.07", title: "개인화와 조용한 UI가 화면을 바꾼다.", note: "10/6 회차와 중복 제외",
+        summary: [
+          "개인화가 두 번째 승부처로 올라왔다. 브랜드 정체성은 고정하고 CTA와 메시지 블록만 맥락에 맞게 바꾼다.",
+          "벤토 그리드는 많은 정보를 쌓지 않고 스캔하게 만드는 의도 반응형 구조로 진화 중이다.",
+          "조용한 UI는 선택지를 줄이고 다음 행동을 예측 가능하게 만든다.",
+          "도파민 컬러는 트렌드지만 Aperte는 제한 팔레트를 유지한다.",
+          "Awwwards 10/7 SOTD는 twks이며, 10/6 수상작은 Lidar Drone Scanning으로 확인됐다."
+        ],
+        trends: [
+          { title: "개인화가 두 번째 승부처다", body: ["AI가 복잡한 사용자 데이터를 해석하고 맥락에 맞는 화면을 제안하기 쉬워지면서, 최대 다수용 한 화면에서 개인의 상황에 맞춘 인터페이스로 이동하고 있다.", "실무에서는 첫 방문자와 재방문자에게 다른 CTA를 보여주는 정도의 가벼운 분기부터 시작할 수 있다. 정적인 브랜드 정체성은 유지하고 CTA와 메시지 블록만 동적으로 바꾸는 하이브리드 접근이다."], analysis: "문의 섹션의 선택 기반 분기 원리를 히어로까지 확장. 포트폴리오·아티클 유입자에게는 작업 사례의 증거를, 직접 유입자에게는 프로세스와 기간을 먼저 제시. 브랜드 언어와 팔레트는 모든 분기에서 동일하게 유지.", links: ["https://v.daum.net/v/20251217110749436", "https://bippermedia.com/answers/what-are-the-latest-web-design-trends-for-2026/", "https://github.com/soberfounders/sober-founders-kpi/blob/HEAD/.agents/skills/web-design/SKILL.md"] },
+          { title: "벤토 그리드 — Apple 클론을 넘어서", body: ["벤토 그리드는 긴 수직 스크롤 대신 대시보드처럼 정보를 스캔하게 만드는 제시 패턴으로 자리 잡았다. 보여줄 것은 많지만 지저분해 보이면 안 되는 SaaS 홈페이지와 포트폴리오에서 특히 강하다.", "다음 단계는 유입 의도에 따라 비용·패키지 셀이나 이미지 셀의 비중이 달라지는 에이전틱 벤토다. 10/5 회차의 조립식 레이아웃이 섹션 아키텍처라면, 벤토는 한 화면 안의 정보 제시 패턴이다."], analysis: "Work와 시안 샘플에 대형 결과 셀 하나, 과정·범위·기간을 담은 작은 셀을 검토. 제한 팔레트 안에서 농도 차이로 위계를 만들고, 390px에서는 결과 셀을 먼저 읽도록 순서를 재배치.", links: ["https://inkbotdesign.com/bento-grid-design/", "https://medium.com/@digitalprana33/10-web-design-trends-that-will-dominate-2026-with-real-examples-0fca36d4e8ad", "https://dev.to/imran_khan_a3cc224344dbcf/bento-grid-css-complete-tutorial-free-examples-2026-2ci"] },
+          { title: "조용한 UI — 인지 부하의 설계", body: ["선택지를 줄이고 다음에 일어날 일을 예측 가능하게 만드는 조용한 UI가 부상하고 있다. 예측 가능한 구조, 자동재생 금지, 짧고 명확한 문장은 신경다양성을 고려한 인클루시브 디자인의 핵심이기도 하다.", "조용한 UI는 덜 만드는 것이 아니라 덜 헷갈리게 만드는 것이다. 안내에 필요하지 않은 스와이프 전환이나 화면을 가리는 고정 요소를 줄이는 방향과 맞닿아 있다."], analysis: "요소를 추가하기 전에 그것 없이도 방문자가 다음 행동을 알 수 있는지 먼저 확인. 문의 선택지는 3개로 유지하고 자동재생·무한 스크롤 같은 주의력 탈취 패턴은 도입하지 않음.", links: ["https://bippermedia.com/answers/what-are-the-latest-web-design-trends-for-2026/", "https://texaswebdesign.com/web-design/exploring-inclusive-design-trends-in-2026/"] },
+          { title: "도파민 컬러 — 채택하지 않는다", body: ["안전한 파스텔에서 벗어나 네온 그러데이션과 고대비 조합을 쓰는 도파민 컬러가 2026년 흐름으로 꼽힌다. 다만 강한 색도 브랜드의 성격과 방향을 선명하게 보여줄 때만 의미가 있다.", "Aperte는 10/4에 정한 Plum Ink·Violet·Paper·White의 제한 팔레트를 유지한다. 강한 컬러가 필요한 브랜드가 있다는 것과 Aperte가 그 브랜드인 것은 다른 문제다."], analysis: "채택하지 않음. ‘방향이 먼저, 컬러는 그 다음’이라는 원칙만 반영. 인스타그램 콘텐츠에서도 강한 컬러 썸네일보다 피드의 톤 일관성을 우선.", links: ["https://medium.com/@digitalprana33/10-web-design-trends-that-will-dominate-2026-with-real-examples-0fca36d4e8ad", "https://blog.naver.com/coco9393_/224313746069"] },
+          { title: "Awwwards 10/7 SOTD — twks", body: ["10월 7일 SOTD는 twks다. 10월 6일 수상작은 Lidar Drone Scanning으로 확인됐으며 두 작품 모두 Developer Award를 함께 받았다.", "10월 7일 확인 시점에는 수상작 상세 설명이 제한적으로만 노출돼 시각적 분석은 다음 회차로 넘긴다."], analysis: "SOTD 감시를 이어가고, 작성 시점에 미발표였던 날짜는 다음 날 정정. twks의 상세 분석은 10/8 회차에서 검토.", links: ["https://www.awwwards.com/websites/sites_of_the_day/"] }
+        ],
+        sources: ["https://v.daum.net/v/20251217110749436", "https://bippermedia.com/answers/what-are-the-latest-web-design-trends-for-2026/", "https://github.com/soberfounders/sober-founders-kpi/blob/HEAD/.agents/skills/web-design/SKILL.md", "https://inkbotdesign.com/bento-grid-design/", "https://medium.com/@digitalprana33/10-web-design-trends-that-will-dominate-2026-with-real-examples-0fca36d4e8ad", "https://dev.to/imran_khan_a3cc224344dbcf/bento-grid-css-complete-tutorial-free-examples-2026-2ci", "https://texaswebdesign.com/web-design/exploring-inclusive-design-trends-in-2026/", "https://blog.naver.com/coco9393_/224313746069", "https://www.awwwards.com/websites/sites_of_the_day/"]
+      },
+{
         id: "2026-10-06", issue: "05", day: "화", date: "2026.10.06", title: "CSS는 가벼워지고, 표현은 더 정교해진다.", note: "이전 회차와 중복 제외",
         summary: [
           "CSS 네이티브 기능이 무거운 자바스크립트 라이브러리를 대체하기 시작했다.",

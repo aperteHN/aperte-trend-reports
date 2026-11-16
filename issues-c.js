@@ -1,5 +1,23 @@
 const issuesC = [
 {
+        id: "2026-10-08", issue: "07", day: "목", date: "2026.10.08", title: "기록의 구조와 UI 기본기가 차이를 만든다.", note: "10/2~10/7 회차와 중복 제외",
+        summary: [
+          "구조화된 기록을 미학으로 바꾸는 Archival Index가 2026년 미니멀리스트의 안식처다. 그리드·라벨·주석이 곧 브랜드가 된다.",
+          "글래스모피즘이 ‘calm futurism’으로 복귀했다. Aperte는 제한 팔레트를 지키며 모달·오버레이에만 검토한다.",
+          "Creative Process는 제작 여정 자체를 보여준다. 인스타그램 콘텐츠 방향과 직결되는 흐름이다.",
+          "AI 도구가 시각 생산을 가속하자 Fitts·Hick·Gestalt·점진적 공개 같은 UI 기본기가 다시 차별점이 됐다.",
+          "10/8 SOTD는 Odyssée다. 10/1~10/8 SOTD는 8일 연속 Developer Award를 함께 받았다."
+        ],
+        trends: [
+          { title: "Archival Index: 기록이 곧 미학", body: ["구조화된 데이터를 비주얼 스토리텔링으로 바꾸는 접근이다. 그리드·라벨·주석으로 정보를 수집하고 보관하며, 레이아웃은 도서관과 갤러리의 성격을 함께 띤다.", "10/7 회차의 벤토 그리드가 한 화면의 정보 제시 패턴이라면 Archival Index는 축적된 기록을 보여주는 방식이다. 날짜·번호·분류 같은 메타데이터를 숨기지 않고 구조 자체를 장식으로 쓴다."], analysis: "트렌드 리포트 아카이브의 날짜·회차·캘린더 체계를 이어가고, 랜딩 프로세스 섹션에는 기간 표기와 작은 주석 체계를 검토. 인스타그램 작업 아카이브는 ‘보관함’ 형식의 콘텐츠 포맷으로 확장.", links: ["https://pros.squarespace.com/blog/design-trends"] },
+          { title: "글래스모피즘: calm futurism으로 복귀", body: ["투명하고 레이어드된 깊이에 광택 질감을 더하는 글래스모피즘이 AI 시대의 시각적 프레임워크로 다시 소개되고 있다. 단순한 유행의 부활보다 반복적으로 진화하는 비주얼 아이덴티티의 재료에 가깝다.", "Aperte는 Plum Ink·Violet·Paper·White의 제한 팔레트를 유지한다. 네온 그러데이션 위 유리 카드 같은 전형적 표현은 제외하고, 투명 레이어의 깊이만 제한적으로 다룬다."], analysis: "채택 범위를 모달·오버레이로 한정. 배경은 기존 Plum Ink를 유지하고 모달 표면에만 미세한 투명 깊이와 1px 룰 라인을 적용. 390px 렌더에서 명도 대비를 먼저 검증.", links: ["https://pros.squarespace.com/blog/design-trends"] },
+          { title: "Creative Process: 과정을 보여주는 것", body: ["손으로 그린 마크, 스캔한 질감, 콜라주식 레이어링으로 디지털 광택을 거부하고 제작 과정과 불완전성을 드러내는 흐름이다. 완성품이 매끈해질수록 어떻게 만들어졌는가를 보여주는 것이 신뢰가 된다.", "10/3 회차의 휴먼 크래프트가 완성 화면 안에 사람의 흔적을 남기는 기법이라면, Creative Process는 스케치와 작업 중 장면 같은 제작 여정 자체를 콘텐츠로 삼는다."], analysis: "웹사이트보다 인스타그램 방향으로 검토. 스케치에서 화면으로 열리는 과정을 3~4컷 캐러셀로 구성하고, 웹사이트에는 반전 카피 한 줄처럼 작은 흔적만 남김.", links: ["https://pros.squarespace.com/blog/design-trends"] },
+          { title: "UI 원칙의 회귀: AI 시대의 기본기", body: ["AI 도구가 시각 생산을 빠르게 만들면서 차별점은 예쁜 화면보다 얼마나 잘 소통하고 행동을 이끄는가로 이동했다. 시각 위계, Fitts의 법칙, Hick의 법칙, 게슈탈트, 점진적 공개가 다시 핵심 기준으로 거론된다.", "10/7의 조용한 UI가 소음을 줄이는 패턴이라면, 이번 흐름은 그 아래의 판단 기준이다. 덜 만드는 것이 아니라 덜 헷갈리게 만드는 원칙을 검수 기준으로 명문화한다."], analysis: "랜딩 검수 기준에 핵심 원칙을 추가. 가장 중요한 CTA의 위계, 44px 터치 타깃, 선택지 수, 요소 간 관계를 모바일 390px 기준으로 확인.", links: ["https://chapters-agency.com/blog/web-app-development/web-design-trends-2026/"] },
+          { title: "Awwwards 10/8 SOTD: Odyssée", body: ["10월 8일 SOTD는 Odyssée다. 10월 7일 수상작 twks와 함께 Developer Award를 받았다. 10월 1일부터 8일까지 SOTD가 8일 연속 Developer Award를 함께 받았다.", "twks는 물질감 있는 유기체 매크로 이미지를, Odyssée는 회색조 물방울 매크로 사진과 최소 카피를 히어로에 썼다. Aperte의 문장 중심 히어로와 선택은 다르지만 한 화면에 한 가지를 집중시키는 원칙은 같다."], analysis: "구현 품질을 디자인 기준으로 삼는 원칙을 유지. 스크롤 물리·반응형·성능을 task 17 랜딩 검수에 계속 적용하고, task 16 종료 후에는 가벼운 주간 확인 루틴을 검토.", links: ["https://www.awwwards.com/websites/sites_of_the_day/"] }
+        ],
+        sources: ["https://pros.squarespace.com/blog/design-trends", "https://chapters-agency.com/blog/web-app-development/web-design-trends-2026/", "https://www.awwwards.com/websites/sites_of_the_day/"]
+      },
+{
         id: "2026-10-07", issue: "06", day: "수", date: "2026.10.07", title: "개인화와 조용한 UI가 화면을 바꾼다.", note: "10/6 회차와 중복 제외",
         summary: [
           "개인화가 두 번째 승부처로 올라왔다. 브랜드 정체성은 고정하고 CTA와 메시지 블록만 맥락에 맞게 바꾼다.",

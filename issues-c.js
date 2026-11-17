@@ -1,5 +1,23 @@
 const issuesC = [
 {
+        id: "2026-10-09", issue: "08", day: "금", date: "2026.10.09", title: "AI 시대에는 고유한 기준이 경쟁력이다.", note: "10/2~10/8 회차와 중복 제외",
+        summary: [
+          "디자인-개발 핸드오프가 무너진다. 디자이너가 AI 네이티브 도구로 프로덕션 코드까지 직행하는 것이 2026년의 중요한 변화다.",
+          "브랜드는 남과 다른 고유 비주얼 시스템에 투자한다. 반복 장식보다 절제된 고유 문법이 차이를 만든다.",
+          "AI 이미지의 기술은 준비됐고 거버넌스가 뒤처진다. 인스타그램 콘텐츠에는 도구·기록·모방·검수·승인의 5단계 규칙이 필요하다.",
+          "격자가 부드러워진다. 유동 레이아웃과 비대칭은 AI 시대의 인간적인 신호다. 랜딩 구조는 유지하고 인스타그램 캐러셀에서만 제한적으로 실험한다.",
+          "정직한 마이크로카피가 기본값이다. 과장 없는 직접 주장에 단위를 붙이면 사람의 이해와 AI 인용 가능성을 함께 높인다."
+        ],
+        trends: [
+          { title: "디자인-개발 핸드오프의 붕괴", body: ["AI 네이티브 도구를 통해 디자이너가 프로덕션 코드까지 직행하면서 전통적인 디자인-개발 핸드오프가 무너지고 있다. 에디토리얼 타이포, 뷰 트랜지션, AI 이미지 같은 흐름도 이 변화의 하위 결과로 볼 수 있다.", "도구는 이미 상용화됐지만 이를 운영 체제로 쓰는 조직은 아직 드물다. Aperte 운영팀은 디자인 지시, AI 빌드, 검수를 하나의 흐름으로 연결하고 있다."], analysis: "트렌드를 따라가기보다 이미 쓰고 있는 운영 방식을 증거로 제시. aperte.kr 프로세스와 FOMOSCAN 과정 기록에 디자이너가 AI 빌드를 직접 지시하고 검수한다는 사실을 명확히 남김.", links: ["https://www.agency7.ca/blog/top-web-design-trends-in-2024-whats-hot-in-edmonton", "https://thecreativecollective.com.au/blog/web-design-trends-for-2026/"] },
+          { title: "브랜드 고유 비주얼 시스템", body: ["AI 생성 비주얼이 보편화될수록 브랜드는 분명히 자기 것처럼 보이는 고유 이펙트와 커스텀 비주얼 시스템에 투자한다. 생성 비용보다 취향과 디렉션이 차별점이 된다.", "반복 패턴처럼 누구나 쓰는 장식을 덜어내고 작업 카드 프레임, CTA 표기, 히어로 오프닝 모션처럼 실제 쓰임이 있는 소수의 문법만 유지하는 편이 고유성을 선명하게 만든다."], analysis: "대괄호 문법은 프레임·버튼·모션 3종으로 한정하고 확장하지 않음. 새 디자인에 장식용 대괄호를 임의로 추가하지 않는 원칙을 브랜드 문서에 고정.", links: ["https://thecreativecollective.com.au/blog/web-design-trends-for-2026/", "https://www.agency7.ca/blog/top-web-design-trends-in-2024-whats-hot-in-edmonton"] },
+          { title: "AI 이미지 거버넌스", body: ["생성형 AI 이미지의 창작 능력은 준비됐지만 거버넌스, 내부 정책, 법은 뒤처져 있다. 핵심 질문은 AI 이미지인가가 아니라 어떤 도구가 어떤 조건과 보호 장치로 만들었는가다.", "승인 기준은 다섯 단계로 정리된다. 도구와 상업 이용 조건 파악, 플랫폼·프롬프트·날짜·수정 내역 기록, 보호 대상 모방 금지, 정확성과 브랜드 적합성에 대한 사람의 검수, 사용 범위별 승인이다."], analysis: "인스타그램 콘텐츠에 5단계 규칙을 적용. 먼저 어떤 도구로 만들었는지 파일명과 메모에 남기고, 대외물은 브랜드 검수 과정을 통과한 이미지만 사용.", links: ["https://thecreativecollective.com.au/blog/web-design-trends-for-2026/"] },
+          { title: "유기적 안티그리드", body: ["구조화된 그리드와 미니멀 레이아웃이 이어진 뒤 유동 레이아웃, 비대칭, 자연스러운 시각 흐름이 다시 나타나고 있다. 자동화된 화면이 늘수록 완벽함보다 연결감을 주는 구성이 인간적인 신호가 된다.", "Aperte 랜딩의 1px 룰 라인, 섹션 키커, 좌측 정렬은 유지한다. 적용처는 인스타그램 캐러셀과 시안 샘플 썸네일로 한정한다."], analysis: "웹사이트 그리드는 유지. 시안 제작 과정 3~4컷 캐러셀에서 스케치 컷을 조금 틀어 배치하는 정도로 먼저 실험.", links: ["https://thecreativecollective.com.au/blog/web-design-trends-for-2026/", "https://www.theedigital.com/blog/web-design-trends"] },
+          { title: "정직한 마이크로카피", body: ["2026년의 마이크로카피는 명확하고 직접적이며 마케팅식 과장을 쓰지 않는다. 모호한 변화 약속보다 사용자가 바로 이해할 수 있는 짧은 동작 문장이 강하다.", "AI 검색도 깨끗하게 인용할 수 있는 문장을 선호한다. 신규 제작 4주 이상, 리뉴얼 2주 이상, 화면 진단 1주 이상처럼 주장에 단위를 붙이면 사람의 이해와 AI의 인용 가능성을 함께 높인다."], analysis: "카피 검수 기준에 AI가 인용할 수 있는 주장과 단위가 있는지 확인하는 항목을 추가. 모호한 선언문은 구체적인 동작 약속으로 수정.", links: ["https://www.agency7.ca/blog/top-web-design-trends-in-2024-whats-hot-in-edmonton"] }
+        ],
+        sources: ["https://www.agency7.ca/blog/top-web-design-trends-in-2024-whats-hot-in-edmonton", "https://thecreativecollective.com.au/blog/web-design-trends-for-2026/", "https://www.theedigital.com/blog/web-design-trends"]
+      },
+{
         id: "2026-10-08", issue: "07", day: "목", date: "2026.10.08", title: "기록의 구조와 UI 기본기가 차이를 만든다.", note: "10/2~10/7 회차와 중복 제외",
         summary: [
           "구조화된 기록을 미학으로 바꾸는 Archival Index가 2026년 미니멀리스트의 안식처다. 그리드·라벨·주석이 곧 브랜드가 된다.",
